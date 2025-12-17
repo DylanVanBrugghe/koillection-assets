@@ -1,0 +1,44 @@
+{
+  "name": "amiibo life",
+  "namePath": "#\/\/h1[last()]\/text()#",
+  "imagePath": "#\/\/meta[@property='og:image']\/@content#",
+  "urlPattern": "https:\/\/amiibo.life\/",
+  "dataPaths": [
+    {
+      "name": "Series",
+      "path": "#substring-before(\/\/p[@class='series-name']\/\/a\/text(), ' series')#",
+      "type": "text",
+      "position": 1
+    },
+    {
+      "name": "Character",
+      "path": "#\/\/div[@class='super_character panel']\/h3\/a\/text() | \/\/div[@class='character panel']\/h3\/a\/text()#",
+      "type": "list",
+      "position": 2
+    },
+    {
+      "name": "Franchise",
+      "path": "#substring-before(\/\/div[@class='franchise panel']\/\/h3\/\/a\/text(), ' franchise')#",
+      "type": "text",
+      "position": 3
+    },
+    {
+      "name": "Released",
+      "path": "#\/\/li[@class='released release'][2]\/time\/@datetime#",
+      "type": "text",
+      "position": 4
+    },
+    {
+      "name": "Description",
+      "path": "#\/\/meta[@name='description']\/@content#",
+      "type": "text",
+      "position": 5
+    },
+    {
+      "name": "Compatible games",
+      "path": "#\/\/div[@class='games panel']\/a\/\/p[@class='name']\/text()[2]#",
+      "type": "list",
+      "position": 6
+    }
+  ]
+}
