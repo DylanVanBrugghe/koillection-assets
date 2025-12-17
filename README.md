@@ -1,2 +1,2 @@
 # koillection-scrapers
-Scraper configuration used in my Koillection instance.
+Scraper configurations used in my Koillection instance.
