@@ -1,1 +1,38 @@
-{"name":"Mattel (US)","namePath":"#normalize-space(\/\/meta[@property='og:title']\/@content)#","imagePath":"#\/\/meta[@property='og:image']\/@content#","urlPattern":"https:\/\/shop.mattel.com\/","dataPaths":[{"name":"Setnumber","path":"#(\/\/@data-bv-product-id)[1]#","type":"text","position":1},{"name":"Pieces","path":"#substring-before(normalize-space((\/\/div[contains(@class, 'pv-details-accordion__menu')])[last()]), ' ')#","type":"text","position":2},{"name":"Retail price","path":"#\/\/meta[@property=\"product:price:amount\"]\/@content#","type":"text","position":3},{"name":"Description","path":"#\/\/meta[@name='description']\/@content#","type":"text","position":4},{"name":"Ages","path":"#substring-before(substring-after(normalize-space(\/\/div[@class='pv-essentials__age']), ' '), 'Y')#","type":"text","position":5}]}
+{
+  "name": "Mattel (US)",
+  "namePath": "#normalize-space(\/\/meta[@property='og:title']\/@content)#",
+  "imagePath": "#\/\/meta[@property='og:image']\/@content#",
+  "urlPattern": "https:\/\/shop.mattel.com\/",
+  "dataPaths": [
+    {
+      "name": "Setnumber",
+      "path": "#(\/\/@data-bv-product-id)[1]#",
+      "type": "text",
+      "position": 1
+    },
+    {
+      "name": "Pieces",
+      "path": "#substring-before(normalize-space((\/\/div[contains(@class, 'pv-details-accordion__menu')])[last()]), ' ')#",
+      "type": "text",
+      "position": 2
+    },
+    {
+      "name": "Retail price",
+      "path": "#\/\/meta[@property=\"product:price:amount\"]\/@content#",
+      "type": "text",
+      "position": 3
+    },
+    {
+      "name": "Description",
+      "path": "#\/\/meta[@name='description']\/@content#",
+      "type": "text",
+      "position": 4
+    },
+    {
+      "name": "Ages",
+      "path": "#substring-before(substring-after(normalize-space(\/\/div[@class='pv-essentials__age']), ' '), 'Y')#",
+      "type": "text",
+      "position": 5
+    }
+  ]
+}

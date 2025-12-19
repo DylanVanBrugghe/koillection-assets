@@ -19,15 +19,19 @@ The [`collection-images`](collection-images) folder contains the images and sour
 ## Scraper configurations
 Scraper configurations are stored in the [`scrapers`](scrapers) folder. Import the JSON files using Koillection's import feature, or manually create the scraper using the Koillection web UI.
 
+- General
+  - [Amazon.com](https://amazon.com/) — [`scrapers/general/amazon-com.json`](scrapers/general/amazon-com.json)
+  - [Bol.com](https://bol.com/) — [`scrapers/general/bol-com.json`](scrapers/general/bol-com.json)
 - [Amiibo](scrapers/amiibo)
-  - [amiibo life](https://amiibo.life/): [`scrapers/amiibo/amiibo-life.json`](scrapers/amiibo/amiibo-life.json)
+  - [amiibo life](https://amiibo.life/) — [`scrapers/amiibo/amiibo-life.json`](scrapers/amiibo/amiibo-life.json)
 - [Funko](`scrapers/funko`)
-  - [POP's Today](https://pops.today/): [`scrapers/funko/pop-s-today.json`](scrapers/funko/pop-s-today.json)
+  - [POP's Today](https://pops.today/) — [`scrapers/funko/pop-s-today.json`](scrapers/funko/pop-s-today.json)
 - [LEGO](scrapers/lego)
-  - [LEGO](https://lego.com/): [`scrapers/lego/lego-com.json`](scrapers/lego/lego-com.json)
+  - [LEGO](https://lego.com/) — [`scrapers/lego/lego-com.json`](scrapers/lego/lego-com.json)
 - [MEGA](scrapers/mega)
-  - [Mattel (US)](https://shop.mattel.com/): [`scrapers/mega/mattel-us.json`](scrapers/mega/mattel-us.json)
-  - [Mattel (EU)](https://shopping.mattel.com/): [`scrapers/mega/mattel-eu.json`](scrapers/mega/mattel-eu.json)
+  - [Amazon.com](https://amazon.com/) — [`scrapers/mega/amazon-com.json`](scrapers/mega/amazon-com.json)
+  - [Mattel (US)](https://shop.mattel.com/) — [`scrapers/mega/mattel-us.json`](scrapers/mega/mattel-us.json)
+  - [Mattel (EU)](https://shopping.mattel.com/) — [`scrapers/mega/mattel-eu.json`](scrapers/mega/mattel-eu.json)
 
 ## Contributing
 Contributions are welcome! Please open a pull request with a clear description of what you're adding and the data source.

@@ -1,1 +1,44 @@
-{"name":"LEGO.com","namePath":"#\/\/h1\/\/text()#","imagePath":"#\/\/meta[@property='og:image']\/@content#","urlPattern":"https:\/\/www.lego.com\/","dataPaths":[{"name":"Setnumber","path":"#\/\/meta[@property=\"product:retailer_item_id\"]\/@content#","type":"text","position":1},{"name":"Retail price","path":"#\/\/meta[@property=\"product:price:amount\"]\/@content#","type":"text","position":2},{"name":"Pieces","path":"#\/\/*[@data-test='pieces-value']\/\/text()#","type":"text","position":3},{"name":"Tags","path":"#\/\/nav[@data-test='breadcrumbs']\/\/li[position() > 1 and not(position() = last())]\/\/i\/\/text()#","type":"list","position":4},{"name":"Description","path":"#\/\/meta[@name=\"description\"]\/@content#","type":"textarea","position":5},{"name":"Ages","path":"#\/\/*[@data-test='ages-value']\/\/text()#","type":"text","position":6}]}
+{
+  "name": "LEGO.com",
+  "namePath": "#\/\/h1\/\/text()#",
+  "imagePath": "#\/\/meta[@property='og:image']\/@content#",
+  "urlPattern": "https:\/\/www.lego.com\/",
+  "dataPaths": [
+    {
+      "name": "Setnumber",
+      "path": "#\/\/meta[@property=\"product:retailer_item_id\"]\/@content#",
+      "type": "text",
+      "position": 1
+    },
+    {
+      "name": "Retail price",
+      "path": "#\/\/meta[@property=\"product:price:amount\"]\/@content#",
+      "type": "text",
+      "position": 2
+    },
+    {
+      "name": "Pieces",
+      "path": "#\/\/*[@data-test='pieces-value']\/\/text()#",
+      "type": "text",
+      "position": 3
+    },
+    {
+      "name": "Tags",
+      "path": "#\/\/nav[@data-test='breadcrumbs']\/\/li[position() > 1 and not(position() = last())]\/\/i\/\/text()#",
+      "type": "list",
+      "position": 4
+    },
+    {
+      "name": "Description",
+      "path": "#\/\/meta[@name=\"description\"]\/@content#",
+      "type": "textarea",
+      "position": 5
+    },
+    {
+      "name": "Ages",
+      "path": "#\/\/*[@data-test='ages-value']\/\/text()#",
+      "type": "text",
+      "position": 6
+    }
+  ]
+}
