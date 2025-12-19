@@ -26,8 +26,8 @@ Scraper configurations are stored in the [`scrapers`](scrapers) folder. Import t
 - [LEGO](scrapers/lego)
   - [LEGO](https://lego.com/): [`scrapers/lego/lego-com.json`](scrapers/lego/lego-com.json)
 - [MEGA](scrapers/mega)
-  - [MEGA (US)](https://shop.mattel.com/): [`scrapers/mega/mega-shop-mattel-com.json`](scrapers/mega/mega-shop-mattel-com.json)
-  - [MEGA (GB)](https://shopping.mattel.com/): [`scrapers/mega/mega-shopping-mattel-com.json`](scrapers/mega/mega-shopping-mattel-com.json)
+  - [Mattel (US)](https://shop.mattel.com/): [`scrapers/mega/mattel-us.json`](scrapers/mega/mattel-us.json)
+  - [Mattel (EU)](https://shopping.mattel.com/): [`scrapers/mega/mattel-eu.json`](scrapers/mega/mattel-eu.json)
 
 ## Contributing
 Contributions are welcome! Please open a pull request with a clear description of what you're adding and the data source.
