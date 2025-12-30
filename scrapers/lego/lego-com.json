@@ -1,1 +1,56 @@
-{"name":"LEGO.com","namePath":"#\/\/h1\/\/text()#","imagePath":"#substring-before(substring-before(\/\/li[@id='product-media-1']\/\/picture\/source[3]\/@srcset, ' '), '?')#","urlPattern":"https:\/\/www.lego.com\/","dataPaths":[{"name":"Theme","path":"#normalize-space(translate(\/\/a[contains(@class, 'ProductOverview_themeLink')]\/text(), '\u2122', ''))#","type":"text","position":1},{"name":"Setnumber","path":"#\/\/meta[@property=\"product:retailer_item_id\"]\/@content#","type":"text","position":2},{"name":"Retail price","path":"#\/\/meta[@property=\"product:price:amount\"]\/@content#","type":"text","position":3},{"name":"Pieces","path":"#\/\/*[@data-test='pieces-value']\/\/text()#","type":"text","position":4},{"name":"Minifigures","path":"#\/\/*[@data-test='minifigures-value']\/\/text()#","type":"text","position":5},{"name":"Description","path":"#\/\/meta[@name=\"description\"]\/@content#","type":"text","position":6},{"name":"Ages","path":"#\/\/*[@data-test='ages-value']\/\/text()#","type":"text","position":7},{"name":"Built","path":"#substring-before(substring-before(\/\/li[@id='product-media-0']\/\/picture\/source[3]\/@srcset, ' '), '?')#","type":"image","position":8}]}
+{
+  "name": "LEGO.com",
+  "namePath": "#\/\/h1\/\/text()#",
+  "imagePath": "#substring-before(substring-before(\/\/li[@id='product-media-1']\/\/picture\/source[3]\/@srcset, ' '), '?')#",
+  "urlPattern": "https:\/\/www.lego.com\/",
+  "dataPaths": [
+    {
+      "name": "Theme",
+      "path": "#normalize-space(translate(\/\/a[contains(@class, 'ProductOverview_themeLink')]\/text(), '\u2122', ''))#",
+      "type": "text",
+      "position": 1
+    },
+    {
+      "name": "Setnumber",
+      "path": "#\/\/meta[@property=\"product:retailer_item_id\"]\/@content#",
+      "type": "text",
+      "position": 2
+    },
+    {
+      "name": "Retail price",
+      "path": "#\/\/meta[@property=\"product:price:amount\"]\/@content#",
+      "type": "price",
+      "position": 3
+    },
+    {
+      "name": "Pieces",
+      "path": "#\/\/*[@data-test='pieces-value']\/\/text()#",
+      "type": "text",
+      "position": 4
+    },
+    {
+      "name": "Minifigures",
+      "path": "#\/\/*[@data-test='minifigures-value']\/\/text()#",
+      "type": "text",
+      "position": 5
+    },
+    {
+      "name": "Description",
+      "path": "#\/\/meta[@name=\"description\"]\/@content#",
+      "type": "text",
+      "position": 6
+    },
+    {
+      "name": "Ages",
+      "path": "#\/\/*[@data-test='ages-value']\/\/text()#",
+      "type": "text",
+      "position": 7
+    },
+    {
+      "name": "Built",
+      "path": "#substring-before(substring-before(\/\/li[@id='product-media-0']\/\/picture\/source[3]\/@srcset, ' '), '?')#",
+      "type": "image",
+      "position": 8
+    }
+  ]
+}
