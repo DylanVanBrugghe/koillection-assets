@@ -42,7 +42,7 @@
     },
     {
       "name": "Description",
-      "path": "#\/\/meta[@name='description']\/@content#",
+      "path": "#normalize-space(\/\/div[contains(@class, 'setdescriptions')]\/div\/text()[1])#",
       "type": "text",
       "position": 7
     },
