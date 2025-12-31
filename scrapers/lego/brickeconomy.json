@@ -1,0 +1,56 @@
+{
+  "name": "BrickEconomy",
+  "namePath": "#normalize-space(\/\/div[contains(@class, 'rowlist') and div[text()='Name']]\/div[2])#",
+  "imagePath": "#concat('https:\/\/brickeconomy.com\/resources\/images\/sets\/', normalize-space(\/\/div[contains(@class, 'rowlist') and div[text()='Set number']]\/div[2]), '_large-1.jpg')#",
+  "urlPattern": "https:\/\/www.brickeconomy.com\/",
+  "dataPaths": [
+    {
+      "name": "Theme",
+      "path": "#normalize-space(translate((\/\/ol[@class='breadcrumb']\/\/a)[2]\/text(), '\u2122', ''))#",
+      "type": "text",
+      "position": 1
+    },
+    {
+      "name": "Setnumber",
+      "path": "#substring-before(\/\/div[contains(@class, 'rowlist') and div[text()='Set number']]\/div[2], '-')#",
+      "type": "text",
+      "position": 2
+    },
+    {
+      "name": "Released",
+      "path": "#normalize-space(\/\/div[div[text()='Released']]\/div[2])#",
+      "type": "text",
+      "position": 3
+    },
+    {
+      "name": "Retail price",
+      "path": "#\/\/div[contains(@class, 'rowlist') and div[contains(text(), 'Retail')]]\/div[2]\/text()#",
+      "type": "price",
+      "position": 4
+    },
+    {
+      "name": "Pieces",
+      "path": "#\/\/div[contains(@class, 'rowlist') and div[text()='Pieces']]\/div[2]\/text()#",
+      "type": "text",
+      "position": 5
+    },
+    {
+      "name": "Minifigures",
+      "path": "#normalize-space(\/\/div[contains(@class, 'rowlist') and div[contains(text(), 'Minifigs')]]\/div[2]\/span[1]\/text())#",
+      "type": "text",
+      "position": 6
+    },
+    {
+      "name": "Description",
+      "path": "#normalize-space(\/\/div[contains(@class, 'setdescriptions')]\/div\/text()[1])#",
+      "type": "text",
+      "position": 7
+    },
+    {
+      "name": "Built",
+      "path": "#concat('https:\/\/brickeconomy.com\/resources\/images\/sets\/', normalize-space(\/\/div[contains(@class, 'rowlist') and div[text()='Set number']]\/div[2]), '_large.jpg')#",
+      "type": "image",
+      "position": 8
+    }
+  ]
+}

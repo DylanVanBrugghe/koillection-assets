@@ -7,5 +7,7 @@ PNG-images suffixed with `-flaticon` in the file name are downloaded from https:
 * [Gaming icons created by Flat Icons - Flaticon](https://www.flaticon.com/free-icons/gaming)
 * [Gaming icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/gaming)
 * [Gaming icons created by Hilmy Abiyyu A. - Flaticon](https://www.flaticon.com/free-icons/videogame)
+* [Hat icons created by Smashicons - Flaticon](https://www.flaticon.com/free-icons/hat)
 * [Plush toy icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/plush-toy)
+* [Sweatshirt icons created by Freepik - Good Ware](https://www.flaticon.com/free-icons/sweatshirt)
 * [Xbox icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/xbox)
