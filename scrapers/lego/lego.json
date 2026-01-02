@@ -1,5 +1,5 @@
 {
-  "name": "LEGO.com",
+  "name": "LEGO",
   "namePath": "#\/\/h1\/\/text()#",
   "imagePath": "#substring-before(substring-before(\/\/li[@id='product-media-1']\/\/picture\/source[3]\/@srcset, ' '), '?')#",
   "urlPattern": "https:\/\/www.lego.com\/",

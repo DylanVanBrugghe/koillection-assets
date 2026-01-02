@@ -19,15 +19,18 @@ The [`collection-images`](collection-images) folder contains the images and sour
 ## Scraper configurations
 Scraper configurations are stored in the [`scrapers`](scrapers) folder. Import the JSON files using Koillection's import feature, or manually create the scraper using the Koillection web UI.
 
-- General
+- [General](scrapers/general)
   - [Amazon.com](https://amazon.com/) — [`scrapers/general/amazon-com.json`](scrapers/general/amazon-com.json)
-  - [Bol.com](https://bol.com/) — [`scrapers/general/bol-com.json`](scrapers/general/bol-com.json)
+  - [bol](https://bol.com/) — [`scrapers/general/bol.json`](scrapers/general/bol.json)
 - [Amiibo](scrapers/amiibo)
   - [amiibo life](https://amiibo.life/) — [`scrapers/amiibo/amiibo-life.json`](scrapers/amiibo/amiibo-life.json)
-- [Funko](`scrapers/funko`)
+- [Funko](scrapers/funko)
+  - [Funko](https://funko.com/) — [`scrapers/funko/funko-detailed.json`](scrapers/funko/funko-detailed.json)
+  - [Funko (Lite version)](https://funko.com/) — [`scrapers/funko/funko-lite.json`](scrapers/funko/funko-lite.json)
   - [POP's Today](https://pops.today/) — [`scrapers/funko/pop-s-today.json`](scrapers/funko/pop-s-today.json)
 - [LEGO](scrapers/lego)
-  - [LEGO](https://lego.com/) — [`scrapers/lego/lego-com.json`](scrapers/lego/lego-com.json)
+  - [LEGO](https://lego.com/) — [`scrapers/lego/lego.json`](scrapers/lego/lego.json)
+  - [BrickEconomy](https://brickeconomy.com/) — [`scrapers/lego/brickeconomy.json`](scrapers/lego/brickeconomy.json)
 - [MEGA](scrapers/mega)
   - [Amazon.com](https://amazon.com/) — [`scrapers/mega/amazon-com.json`](scrapers/mega/amazon-com.json)
   - [Mattel (US)](https://shop.mattel.com/) — [`scrapers/mega/mattel-us.json`](scrapers/mega/mattel-us.json)
